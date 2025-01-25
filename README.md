@@ -38,17 +38,25 @@ SlideSpeech is a Python script that automates the presentation of PDF or PPTX fi
 
 ## Setup
 
-### 1. Install Python
+### 1. Clone the Repository
+First, clone the `slide-speech` repository to your local machine:
+
+```bash
+git clone https://github.com/luongnv89/slide-speech.git
+cd slide-speech
+```
+
+### 2. Install Python
 If you don't have Python installed, download and install it from [python.org](https://www.python.org/downloads/).
 
-### 2. Install Required Libraries
+### 3. Install Required Libraries
 Open a terminal or command prompt and run the following commands to install the required libraries:
 
 ```bash
 pip install pyautogui pygame PyPDF2 python-pptx
 ```
 
-### 3. Prepare Your Files
+### 4. Prepare Your Files
 - **Presentations**: Place each presentation in its own folder under the `presentations` directory.
   - Each folder should contain:
     - A PDF or PPTX file (e.g., `slides.pdf` or `slides.pptx`).
@@ -56,7 +64,7 @@ pip install pyautogui pygame PyPDF2 python-pptx
 
 #### File Structure
 ```
-SlideSpeech/
+slide-speech/
 │
 ├── presentations/                  # Folder containing all presentations
 │   ├── presentation_1/             # Folder for Presentation 1
@@ -74,7 +82,7 @@ SlideSpeech/
 │   │       └── ...
 │   └── ...
 │
-├── SlideSpeech.py                  # Main script
+├── slide-speech.py                 # Main script
 └── README.md                       # Project documentation
 ```
 
@@ -86,7 +94,7 @@ SlideSpeech/
 Open a terminal or command prompt, navigate to the folder containing the script, and run:
 
 ```bash
-python SlideSpeech.py
+python slide-speech.py
 ```
 
 ### 2. Select a Presentation
