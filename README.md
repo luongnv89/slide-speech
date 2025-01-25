@@ -10,7 +10,9 @@ SlideSpeech is a Python script that automates the presentation of PDF or PPTX fi
 3. [Setup](#setup)
 4. [Usage](#usage)
 5. [File Structure](#file-structure)
-6. [Notes](#notes)
+6. [License](#license)
+7. [Contributing](#contributing)
+8. [Notes](#notes)
 
 ---
 
@@ -52,6 +54,30 @@ pip install pyautogui pygame PyPDF2 python-pptx
     - A PDF or PPTX file (e.g., `slides.pdf` or `slides.pptx`).
     - An `audio` folder with audio files named `slide_1.wav`, `slide_2.wav`, etc.
 
+#### File Structure
+```
+SlideSpeech/
+│
+├── presentations/                  # Folder containing all presentations
+│   ├── presentation_1/             # Folder for Presentation 1
+│   │   ├── slides.pdf              # PDF or PPTX file
+│   │   └── audio/                  # Folder for audio files
+│   │       ├── slide_1.wav
+│   │       ├── slide_2.wav
+│   │       └── ...
+│   │
+│   ├── presentation_2/             # Folder for Presentation 2
+│   │   ├── slides.pptx
+│   │   └── audio/
+│   │       ├── slide_1.wav
+│   │       ├── slide_2.wav
+│   │       └── ...
+│   └── ...
+│
+├── SlideSpeech.py                  # Main script
+└── README.md                       # Project documentation
+```
+
 ---
 
 ## Usage
@@ -82,30 +108,19 @@ The script will:
 
 ---
 
-## File Structure
+## License
+SlideSpeech is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
-```
-SlideSpeech/
-│
-├── presentations/                  # Folder containing all presentations
-│   ├── presentation_1/             # Folder for Presentation 1
-│   │   ├── slides.pdf              # PDF or PPTX file
-│   │   └── audio/                  # Folder for audio files
-│   │       ├── slide_1.wav
-│   │       ├── slide_2.wav
-│   │       └── ...
-│   │
-│   ├── presentation_2/             # Folder for Presentation 2
-│   │   ├── slides.pptx
-│   │   └── audio/
-│   │       ├── slide_1.wav
-│   │       ├── slide_2.wav
-│   │       └── ...
-│   └── ...
-│
-├── SlideSpeech.py                  # Main script
-└── README.md                       # Project documentation
-```
+---
+
+## Contributing
+We welcome contributions to SlideSpeech! If you'd like to contribute, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Make your changes and commit them with clear messages.
+4. Submit a pull request.
+
+For more information, see our [Contribution Guidelines](CONTRIBUTING.md).
 
 ---
 
