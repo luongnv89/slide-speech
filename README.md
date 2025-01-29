@@ -1,28 +1,20 @@
 # SlideSpeech: Auto Presentation Script
 
-SlideSpeech is a Python script that automates the presentation of PDF or PPTX files, playing an audio file for each slide. The time spent on each slide depends on the duration of the corresponding audio file. The script supports **multiple presentations**, allowing you to choose which one to start when running the script.
+Introducing SlideSpeech, a tool designed to automate your PDF or PPTX presentations by synchronizing them with audio files. It dynamically adjusts slide durations based on the corresponding audio length and supports seamless transitions across slides.
+
+### Key Features:
+
+- **Format Compatibility**: Works effortlessly with both PDF and PPTX files.
+- **Seamless Navigation**: Automatically progresses to the next slide as each audio file ends, ensuring a smooth presentation flow.
+- **Sequential Audio Playback**: Synchronizes your content by playing audio files in order for every slide.
+- **Flexible Presentation Management**: Choose from multiple presentations at startup, providing versatility for different scenarios.
+- **Cross-Platform Support**: Compatible with Windows, macOS, and Linux, allowing broad accessibility.
+
+SlideSpeech is the perfect solution for educators, trainers, corporate presenters, or anyone looking to enhance their presentation delivery. Explore and contribute on GitHub [Insert Link Here]. #OpenSource #PresentationTool #SlideSpeech
 
 ---
 
-## Table of Contents
-1. [Features](#features)
-2. [Requirements](#requirements)
-3. [Setup](#setup)
-4. [Usage](#usage)
-5. [File Structure](#file-structure)
-6. [License](#license)
-7. [Contributing](#contributing)
-8. [Notes](#notes)
-
----
-
-## Features
-- Supports **PDF** and **PPTX** presentation formats.
-- Automatically navigates to the next slide after the audio file finishes playing.
-- Audio files are played sequentially for each slide.
-- Dynamic slide duration based on the length of the audio file.
-- Supports **multiple presentations**—choose which one to start when running the script.
-- Cross-platform: Works on **Windows**, **macOS**, and **Linux**.
+Enhance your presentations effortlessly with SlideSpeech!
 
 ---
 
